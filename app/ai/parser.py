@@ -83,7 +83,8 @@ async def transcribe_voice(audio_data: bytes) -> str | None:
             )
         )
         
-        text = response.text.strip().strip('"').strip("'")
+        text = response.text or ""
+        text = text.strip().strip('"').strip("'")
         if text:
             logger.info(f"Transcribed voice: {text}")
             return text

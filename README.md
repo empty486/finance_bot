@@ -2,6 +2,13 @@
 
 A production-ready Telegram bot designed for high-performance financial tracking. Powered by **Gemini 2.5 Flash**, it understands natural language (text & voice) in Uzbek, Russian, and English.
 
+## 📺 Video Demo
+
+https://github.com/user-attachments/assets/merged_video_placeholder_or_direct_link
+*(Note: Upload the video to GitHub and replace the link below for better rendering)*
+
+<video src="assets/IMG_0626.MP4" width="300" controls></video>
+
 ## 🌟 Key Features
 
 - **🗣 Voice-to-Data**: Send a voice message like *"Today I spent 50k on a taxi and bought apples for 20k"* — the bot transcribes, parses, and saves both transactions instantly.
